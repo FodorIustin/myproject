@@ -1,5 +1,5 @@
 package examen;
-
+//
 public class Angajat {
     public String nume;
     public String prenume;
