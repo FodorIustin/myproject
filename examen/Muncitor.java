@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Muncitor extends Angajat {
-	private List<String> responsabilitati;
+    private List<String> responsabilitati;
 
     public Muncitor(String nume, String prenume, int aniVechime) {
         super(nume, prenume, aniVechime);
@@ -22,8 +22,13 @@ public class Muncitor extends Angajat {
         }
     }
 
-    @Override
+    
     public void afisareNumeCompletSiFunctie() {
         System.out.println("Nume complet: " + super.nume + " " + super.prenume + ", Funcție: Muncitor");
     }
+
 }
+
+
+
+

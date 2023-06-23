@@ -1,17 +1,16 @@
 package examen;
 
 public class Act {
-	private static int nextId = 1;
+    private static int idNou = 1;
     private int id;
 
     public Act() {
-        this.id = nextId;
-        nextId++;
+        this.id = idNou;
+        idNou++;
     }
 
     public int getId() {
         return id;
     }
 }
-
 
